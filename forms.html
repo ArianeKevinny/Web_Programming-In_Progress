@@ -7,6 +7,33 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-	
+	<form action="/receber.php" method="post"> <!--Não criado-->
+		<div>
+			<label for="name">Nome Completo:</label>
+			<input type="text" id="name" />
+		</div>
+		<div>
+			<label for="mail">E-mail:</label>
+			<input type="email" id="mail" />
+		</div>
+		<div>
+			<label for="msg">Crie seu prórpio Mussum Ipsum:</label>
+			<textarea id="msg"></textarea>
+		</div>
+		<div>
+			<p>	Se concoda, seleciona: </p>
+			<input type="checkbox" name="premio" value="ouro">Mussum deveria ter recebido um globo de ouro<br>
+   			<input type="checkbox" name="premio" value="oscar">Mussum deveria ter recebido um Oscar<br>
+    		<input type="checkbox" name="premio" value="grammy">Mussum deveria ter recebido um Grammy
+		</div>
+		<br>
+		<div class="button">
+			<button type="reset">Limpe o Formulario</button>
+		</div>
+		<br>
+		<div class="button">
+			<button type="submit">Enviar sua mensagem para ser julgada :)</button>
+		</div>
+	</form>
 </body>
 </html>
