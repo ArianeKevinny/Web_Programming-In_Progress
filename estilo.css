@@ -5,7 +5,13 @@
 
 }
 
-div{
+.preto{
+	background-color: black;
+	position: relative;
+	height: 10px;
+}
+/*
+{
 	border: 2px solid lightgreen;
 	left: 200px;
 	position: relative;
